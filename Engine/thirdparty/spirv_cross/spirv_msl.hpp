@@ -292,7 +292,7 @@ public:
 		} Platform;
 
 		Platform platform = macOS;
-		uint32_t msl_version = make_msl_version(1, 2);
+		uint32_t msl_version = make_msl_version(1, 2, 0);
 		uint32_t texel_buffer_texture_width = 4096; // Width of 2D Metal textures used as 1D texel buffers
 		uint32_t r32ui_linear_texture_alignment = 4;
 		uint32_t r32ui_alignment_constant_id = 65535;
